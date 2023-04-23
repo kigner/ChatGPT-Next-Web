@@ -18,6 +18,7 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
+  Youtube_URL,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -92,7 +93,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>iChatGPT</div>
         <div className={styles["sidebar-sub-title"]}>
-          https//youtube.com/@aidiscovery2045
+          https://youtube.com/@aidiscovery2045
         </div>
         <div className={styles["sidebar-logo"]}>
           <ChatGptIcon />
