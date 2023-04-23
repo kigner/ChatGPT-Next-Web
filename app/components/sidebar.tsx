@@ -93,7 +93,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>iChatGPT</div>
         <div className={styles["sidebar-sub-title"]}>
-          https://youtube.com/@aidiscovery2045
+          <a href="https://youtube.com/@aidiscovery2045" target="_blank">Own your chatGPT</a>
         </div>
         <div className={styles["sidebar-logo"]}>
           <ChatGptIcon />
